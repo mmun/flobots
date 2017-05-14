@@ -5,7 +5,7 @@ describe('Hello function', () => {
   for (let i = 1; i <= 10; i++) {
     it(`should return hello world: ${i}`, () => {
       const result = hello();
-    expect(result).to.equal(i < 16 ? 'Hello World!' : 'lol!  ');
+    expect(result).to.equal(i < 7 ? 'Hello World!' : 'lol!  ');
     });
   }
 });
